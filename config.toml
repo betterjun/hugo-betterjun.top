@@ -1,0 +1,24 @@
+baseurl = "http://betterjun.top/"
+title = "Betterjun, 做更好的自己!"
+
+googleAnalytics = "" # Optional
+disqusShortname = "XYW"
+
+theme = "beg"
+
+[params]
+  dateformat = "Jan 2, 2006" # Optional
+
+
+[[menu.header]]
+  name = "Home"
+  url = "/"
+  weight = 1
+[[menu.header]]
+  name = "Tag"
+  url = "/tags/"
+  weight = 2
+[[menu.header]]
+  name = "Category"
+  url = "/categories/"
+  weight = 3
