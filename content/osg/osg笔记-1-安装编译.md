@@ -37,6 +37,8 @@ windows平台编译方法在这里，<http://www.openscenegraph.org/index.php/do
 
 官方建议单独新建工程，不要和OSG的工程混在一起。同时将OpenSceneGraph\applications\osgViewer\osgViewer.cpp拷贝添加到新工程中，然后设置编译环境，验证编译通过。
 
+最后发布编译好的可执行程序时，还需要加上相应的dll文件，比如osg.dll。
+
 ### 2.1. 工程设置
 
 建议设置如下环境变量
